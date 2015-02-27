@@ -1,7 +1,7 @@
 <?php
 /*
- * VirusTotal Image Creator
- * https://github.com/Yanikore
+ * VirusTotal Image Generator
+ * https://github.com/Yanikore/VirusTotal-Image-Generator
  * Version: 1.0.0
  *
  * created by Yani
@@ -122,3 +122,5 @@ imagefttext($image, 11, 0, imagesx($image) - $bbox[2] - 5, $height - 5, $color['
 // Output the file, and clear the resources
 imagepng($image);
 imagedestroy($image);
+
+?>
